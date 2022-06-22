@@ -1,12 +1,10 @@
 body,html{
     height: 100%;
     margin: 0;
-    border: 0;
-    justify-content: center;
 }
 
 .bg{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0)), url("/img/wallpaperbetter.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0)), url("../wallpaperbetter.jpg");   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,12 +16,12 @@ body,html{
     --main-bg:#33c71fa9;
   }
   
-  input:focus, button:focus {
+  input:focus, button:focus{
     border: 1px solid var(--main-bg) !important;
     box-shadow:none!important;
   }
   
-  .form-check-input:checked {
+  .form-check-input:checked{
     background-color: var(--main-bg) !important;
     border-color: none !important;
   }
@@ -33,6 +31,5 @@ body,html{
   }
 
 #continue{
-  background-color:#33c71fa9 ;
-  
+  background-color:#33c71fa9;
 }
