@@ -1,6 +1,7 @@
 body,html{
     height: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 .bg{
@@ -18,7 +19,7 @@ body,html{
   
   input:focus, button:focus{
     border: 1px solid var(--main-bg) !important;
-    box-shadow:none!important;
+    box-shadow: none !important;
   }
   
   .form-check-input:checked{
