@@ -17,8 +17,28 @@
       <div class="col-lg-4 col-md-6 col-sm-6 m-5 p-2">
         <div class="container rounded-4 bg-dark shadow-lg">
           <div class="card-title text-center text-light border-bottom mb-4">
-            <h2 class="p-4 fw-light">Entrar</h2>
+            <h2 class="p-4 fw-light">Registre-se</h2>
           </div>
+
+          <div class="d-grid">
+            <button type="submit" href="#!" id="facebook" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-facebook-f me-2"></i>Entre com Facebook</a></button>
+
+            <div class="d-grid">
+              <button type="submit" href="#!"  id="google" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-google me-2"></i>Entre com Google</a></button>
+
+              <div class="d-grid">
+              <button type="submit" href="#!"  id="apple" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-apple me-2 fa-lg"></i>Entre com Apple</a></button>
+
+              <div class="text text-light text-center fw-light mb-4">OU</div>
+              <div class="border-bottom"></div>
+
+          <!--Nome-->
+          <div class="card-body">
+            <div class="mb-4 mt-4">
+              <label for="name" class="form-label text-light fw-light">Nome</label>
+              <input type="text" class="form-control rounded-3 bg-dark text-light" id="name" required/>
+            </div>
+
           <!--Email-->
           <div class="card-body">
               <div class="mb-4">
@@ -30,36 +50,28 @@
                 <label for="password" class="form-label text-light fw-light">Senha</label>
                 <input type="password" class="form-control rounded-3 bg-dark text-light" id="password" required/>
                 </div>
+
+              <div class="mb-4">
+                <label for="password" class="form-label text-light fw-light">Confirme a senha</label>
+                <input type="password" class="form-control rounded-3 bg-dark text-light" id="password" required/>
+                </div>
               </div>
-              <!--Checbox lembrar-me-->
+
+
+              <!--Termos e condições-->
               <div class="form-group form-check mb-4 ">
-                <input type="checkbox" class="form-check-input rounded-1 mb-1" id="remember"/>
-                <label for="Remember"  id="keep" class="form-check-label text-light fw-light">Lembrar-me</label>
+                <input type="checkbox" class="form-check-input rounded-1 mb-1" id="terms"/>
+                <label for="Remember" id="terms" class="form-check-label text-light fw-light">Li e aceito os </label><a href="#!" class="text-white-50 text-decoration-none"> termos e condições de uso.*</a>
               </div>
             
-              <!--Continue, Facebook, Google-->
+              <!--Registrar-->
               <div class="d-grid">
-                <button type="submit" id="continue" class="btn text-light rounded-5 mb-4">Continue</button>
+                <button type="submit" id="continue" class="btn text-light rounded-5 mb-4">Registrar</button>
 
-                <div class="text text-light text-center fw-light mb-4">OU</div>
-                
-                <div class="d-grid">
-                  <button type="submit" href="#!" id="facebook" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-facebook-f me-2"></i>Continuar com Facebook</a></button>
-
-                  <div class="d-grid">
-                    <button type="submit" href="#!"  id="google" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-google me-2"></i>Continuar com Google</a></button>
-
-                    <div class="d-grid">
-                    <button type="submit" href="#!"  id="apple" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-apple me-2 fa-lg"></i>Continuar com Apple</a></button>
-                  
-                    <!--Esqueci minha senha-->
-                      <p class="text text-light text-center     fw-light mb-2"><a href="#!"     class="text-white     text-decoration-none">Esqueceu a senha?</a>
-                      </p>
-                    <!--Cadastre-se-->
-                    <div>
-                      <p class="text text-light text-center     fw-light mb-4" >Não tem uma conta? <a     href="cadastrar.html" class="text-white-50    text-decoration-none">Cadastre-se!</a>
-                      </p>
-                    </div>
+                <!--Entre-->
+                <div>
+                    <p class="text text-light text-center     fw-light mb-4" >Já tem uma conta? <a     href="index.html" class="text-white-50    text-decoration-none">Entre aqui!</a>
+                    </p>
                   <div>                                     
                 </div>
             </form>
