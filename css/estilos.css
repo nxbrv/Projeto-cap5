@@ -1,7 +1,6 @@
 body,html{
     height: 100%;
     margin: 0;
-    /*overflow: hidden;*/
 }
 
 .bg{
@@ -10,8 +9,8 @@ body,html{
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
-    backdrop-filter: blur(4px);
-    
+    backdrop-filter: blur(5px);
+    height: max-content;
 }
 
 :root{
