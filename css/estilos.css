@@ -17,18 +17,16 @@ body,html{
     --main-bg:#33c71fa9;
   }
   
-input:focus, button:focus{
-    border: 1px solid var(--main-bg) !important;
-    box-shadow: none !important;
+input:focus{
+    border-bottom: 1px solid var(--main-bg) !important;
+    outline: none;
+    transition: all .3s ease-in-out;
+    transform-origin: left
 }
   
 .form-check-input:checked{
     background-color: var(--main-bg) !important;
-    border-color: none !important;
-}
-  
-.card, .btn, input{
-    border-radius:0 !important;
+    border-color: none;
 }
 
 #remember{
@@ -37,16 +35,45 @@ input:focus, button:focus{
 
 #continue{
   background-color:#33c71fa9;
+  border: none;
+  transition: background .3s;
+}
+
+#continue:hover{
+  background-color:#16bd00a9;
+  border: none;
 }
 
 #facebook{
   background-color:#3b5898;
+  border: none;
+  transition: background .3s;
+}
+
+#facebook:hover{
+  background-color:#26468b;
+  border: none;
 }
 
 #google{
   background-color:#dd4b39;
+  border: none;
+  transition: background .3s;
+}
+
+#google:hover{
+  background-color:#c9311e;
+  border: none;
 }
 
 #apple{
   background-color:#000000;
+  border: none;
+  transition: background .3s;
+}
+
+#apple:hover{
+  background-color:#00000088;
+  border: none;
+
 }

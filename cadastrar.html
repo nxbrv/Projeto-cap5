@@ -11,14 +11,16 @@
   
 </head>
 <body class="bg">
+
   <!--Cadastrar-->
-  <div class="container-fluid">
+  <div class="container">
     <div class="row justify-content-center p-3">
       <div class="col-lg-4 col-md-6 col-sm-6 m-5 p-2">
         <div class="container rounded-4 bg-dark shadow-lg">
           <div class="card-title text-center text-light border-bottom mb-4">
             <h2 class="p-4 fw-light">Cadastre-se</h2>
           </div>
+
           <!--Entrar com Facebook, Google, Apple-->
           <div class="d-grid">
             <button type="submit" href="#!" id="facebook" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-facebook-f me-2"></i>Entrar com Facebook</a></button>
@@ -33,44 +35,45 @@
               <div class="border-bottom"></div>
 
           <!--Nome-->
+          <form>
           <div class="card-body">
             <div class="mb-4 mt-4">
               <label for="name" class="form-label text-light fw-light">Nome</label>
-              <input type="text" class="form-control rounded-3 bg-dark text-light" id="name" required/>
+              <input type="text" class="form-control-plaintext border-bottom bg-dark text-light" id="name" required/>
             </div>
 
-          <!--Email-->
+          <!--E-mail-->
           <div class="card-body">
-              <div class="mb-4">
-                <label for="username" class="form-label text-light fw-light">E-mail</label>
-                <input type="text" class="form-control rounded-3 bg-dark text-light" id="username" required/>
-              </div>
-              <!--Senha-->
-              <div class="mb-4">
-                <label for="password" class="form-label text-light fw-light">Senha</label>
-                <input type="password" class="form-control rounded-3 bg-dark text-light" id="password" required/>
-                </div>
+             <div class="mb-4">
+              <label for="username" class="form-label text-light fw-light">E-mail</label>
+              <input type="email" class="form-control-plaintext border-bottom bg-dark text-light" id="username" required/>
+            </div>
 
-              <div class="mb-4">
-                <label for="password" class="form-label text-light fw-light">Confirme a senha</label>
-                <input type="password" class="form-control rounded-3 bg-dark text-light" id="password" required/>
-                </div>
-              </div>
+          <!--Senha-->
+          <div class="mb-4">
+              <label for="password" class="form-label text-light fw-light">Senha</label>
+              <input type="password" class="form-control-plaintext border-bottom bg-dark text-light" id="password" required/>
+            </div>
 
+          <div class="mb-4">
+              <label for="password" class="form-label text-light fw-light">Confirme a senha</label>
+              <input type="password" class="form-control-plaintext border-bottom bg-dark text-light" id="password" required/>
+          </div>
+        </form>
 
-              <!--Termos e condições-->
-              <div class="form-group form-check mb-4 ">
-                <input type="checkbox" class="form-check-input rounded-1 mb-1" id="terms"/>
-                <label for="Remember" id="terms" class="form-check-label text-light fw-light">Li e aceito os </label><a href="#!" class="text-white-50 text-decoration-none"> termos e condições de uso.*</a>
-              </div>
+          <!--Termos e condições-->
+          <div class="form-group form-check mb-4 ">
+              <input type="checkbox" class="form-check-input rounded-1 mb-1" id="terms"/>
+              <label for="checkbox id="terms" class="form-check-label text-light fw-light">Li e aceito os </label><a href="#!" class="text-white-50 text-decoration-none"> termos e condições de uso.*</a>
+          </div>
             
-              <!--Registrar-->
-              <div class="d-grid">
-                <button type="submit" href="#!" id="continue" class="btn text-light rounded-5 mb-4">Cadastrar</button>
+          <!--Cadastrar-->
+          <div class="d-grid">
+            <button type="submit" href="#!" id="continue" class="btn text-light rounded-5 mb-4">Cadastrar</button>
 
-                <!--Entre-->
-                <div>
-                    <p class="text text-light text-center     fw-light mb-4" >Já tem uma conta? <a     href="index.html" class="text-white-50    text-decoration-none">Entre aqui!</a>
+          <!--Já tem uma conta?-->
+          <div>
+            <p class="text text-light text-center     fw-light mb-4" >Já tem uma conta? <a     href="index.html" class="text-white-50    text-decoration-none">Entre aqui!</a>
                     </p>
                   <div>                                     
                 </div>

@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html5>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8"/>
@@ -19,50 +19,53 @@
           <div class="card-title text-center text-light border-bottom mb-4">
             <h2 class="p-4 fw-light">Entrar</h2>
           </div>
+          
           <!--Email-->
+          <form>
           <div class="card-body">
               <div class="mb-4">
                 <label for="username" class="form-label text-light fw-light">E-mail</label>
-                <input type="text" class="form-control rounded-3 bg-dark text-light" id="username" required/>
+                <input type="email" class="form-control-plaintext border-bottom bg-dark text-light" id="username" required/>
               </div>
-              <!--Senha-->
-              <div class="mb-4">
+
+          <!--Senha-->
+          <div class="mb-4">
                 <label for="password" class="form-label text-light fw-light">Senha</label>
-                <input type="password" class="form-control rounded-3 bg-dark text-light" id="password" required/>
-                </div>
-              </div>
-              <!--Checbox lembrar-me-->
-              <div class="form-group form-check mb-4">
+                <input type="password" class="form-control-plaintext border-bottom bg-dark text-light" id="password" required/>
+          </div>
+        </form>
+
+          <!--Chekbox lembrar-me-->
+          <div class="form-group form-check mb-4">
                 <input type="checkbox" class="form-check-input rounded-1 mb-1" id="remember"/>
                 <label for="Remember"  id="keep" class="form-check-label text-light fw-light">Lembrar-me</label>
-              </div>
+          </div>
             
-              <!--Continue, Facebook, Google, Apple-->
-              <div class="d-grid">
+          <!--Continue, Facebook, Google, Apple-->
+          <div class="d-grid">
                 <button type="submit" href="#!" id="continue" class="btn text-light rounded-5 mb-4">Continue</button>
 
-                <div class="text text-light text-center fw-light mb-4">OU</div>
+          <div class="text text-light text-center fw-light mb-4">OU</div>
                 
-                <div class="d-grid">
-                  <button type="submit" href="#!" id="facebook" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-facebook-f me-2"></i>Continuar com Facebook</a></button>
+          <div class="d-grid">
+                <button type="submit" href="#!" id="facebook" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-facebook-f me-2"></i>Continuar com Facebook</a></button>
 
-                  <div class="d-grid">
-                    <button type="submit" href="#!"  id="google" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-google me-2"></i>Continuar com Google</a></button>
+          <div class="d-grid">
+                <button type="submit" href="#!"  id="google" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-google me-2"></i>Continuar com Google</a></button>
 
-                    <div class="d-grid">
-                    <button type="submit" href="#!"  id="apple" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-apple me-2 fa-lg"></i>Continuar com Apple</a></button>
+          <div class="d-grid">
+                <button type="submit" href="#!"  id="apple" class="btn text-light fw-semibold rounded-5 mb-4"><i class="fab fa-apple me-2 fa-lg"></i>Continuar com Apple</a></button>
                   
-                    <!--Esqueci minha senha-->
-                      <p class="text text-light text-center     fw-light mb-2"><a href="recuperacao.html"     class="text-white    text-decoration-none">Esqueceu a senha?</a>
-                      </p>
-                    <!--Cadastre-se-->
-                    <div>
-                      <p class="text text-light text-center     fw-light mb-4" >Não tem uma conta? <a     href="cadastrar.html" class="text-white-50    text-decoration-none">Cadastre-se!</a>
-                      </p>
-                    </div>
-                  <div>                                     
+          <!--Esqueci minha senha-->
+                <p class="text text-light text-center     fw-light mb-2"><a href="recuperacao.html"     class="text-white    text-decoration-none">Esqueceu a senha?</a>
+                </p>
+          <!--Cadastre-se-->
+          <div>
+                <p class="text text-light text-center     fw-light mb-4" >Não tem uma conta? <a     href="cadastrar.html" class="text-white-50    text-decoration-none">Cadastre-se!</a>
+                </p>
                 </div>
-            </form>
+              </div>                                   
+            </div>
           </div>
         </div>
       </div>

@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
   <title>Funity</title>
   <link type="text/css" rel="stylesheet" href="css/estilos.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -11,6 +10,7 @@
   
 </head>
 <body class="bg">
+
   <!--Recuperar senha-->
   <div class="container-fluid">
     <div class="row justify-content-center p-3">
@@ -21,27 +21,28 @@
             <p class="fw-light text-white-50 mb-4">Insira o e-mail de cadastro e enviaremos um link para recuperar a senha e acessar sua conta.</p>
           </div>
 
-          <!--Email-->
-          <div class="card-body">
-              <div class="mb-4">
-                <label for="username" class="form-label text-light fw-light">E-mail</label>
-                <input type="text" class="form-control rounded-3 bg-dark text-light" id="username" required/>
-              </div>
+            <!--E-mail-->
+            <form>
+              <div class="card-body">
+                <div class="mb-4">
+                  <label for="username" class="form-label text-light fw-light">E-mail</label>
+                  <input type="email" class="form-control-plaintext border-bottom bg-dark text-light" required/>
+                </div>
+              </form>
 
-            
-              <!--Enviar-->
+            <!--Enviar-->
               <div class="d-grid">
                 <button type="submit" href="#!" id="continue" class="btn text-light rounded-5 mb-3">Enviar</button>
 
-                <div class="text text-light text-center fw-light mb-2">OU</div>
 
-                 <!--Criar nova conta-->
-                 <div>
-                    <p class="text text-light text-center     fw-light mb-4" ><a href="cadastrar.html" class="text-white-50    text-decoration-none">Criar uma nova conta</a>
-                    </p>
-                  </div>                                 
-                </div>
-            </form>
+              <div class="text text-light text-center fw-light mb-2">OU</div>
+
+            <!--Criar nova conta-->
+              <div>
+                <p class="text text-light text-center     fw-light mb-4" ><a href="cadastrar.html" class="text-white-50    text-decoration-none">Criar uma nova conta</a>
+                </p>
+              </div>                                 
+            </div>
           </div>
         </div>
       </div>
